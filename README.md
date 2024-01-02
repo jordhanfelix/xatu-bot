@@ -1,67 +1,67 @@
-# XATU - WhatsApp Automation Bot for Football Match Organization
+# XATU - Bot de Automação no WhatsApp para Organização de Partidas de Futebol
 
-## Overview
+## Visão Geral
 
-XATU is a Python script designed to automate the process of sending football match attendance confirmation messages on WhatsApp. The script utilizes the pywhatkit library to send messages instantly to either individual contacts or group chats.
+XATU é um script em Python projetado para automatizar o processo de envio de mensagens de confirmação de presença em partidas de futebol no WhatsApp. O script utiliza a biblioteca pywhatkit para enviar mensagens instantâneas para contatos individuais ou grupos.
 
-## Features
+## Recursos
 
-- Sends a customizable attendance confirmation message to a specified contact or group.
-- Allows parameterization through a `.env` file for easy customization.
-- Automatically calculates and selects the next Friday as the default event date.
+- Envia uma mensagem personalizável de confirmação de presença para um contato ou grupo específico.
+- Permite a parametrização por meio de um arquivo `.env` para personalização fácil.
+- Calcula automaticamente e seleciona a próxima sexta-feira como data padrão para o evento.
 
-## Prerequisites
+## Pré-requisitos
 
-- Python 3.x installed.
-- Pip installed.
-- Required Python packages installed. Install dependencies using:
+- Python 3.x instalado.
+- Pip instalado.
+- Pacotes Python necessários instalados. Instale as dependências usando:
 
     ```bash
     pip install python-dotenv pywhatkit pyautogui
     ```
 
-## Setup
+## Configuração
 
-1. Clone the repository:
+1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seuusuario/seurepositorio.git
+    git clone https://github.com/seunome/seurepositorio.git
     ```
 
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
 
     ```bash
     cd seurepositorio
     ```
 
-3. Create a `.env` file in the root directory with the following parameters:
+3. Crie um arquivo `.env` no diretório raiz com os seguintes parâmetros:
 
     ```
-    MODE="Message sending mode (group or contact)"
-    CONTACT_ID="WhatsApp contact number or group ID"
+    MODE="Modo de envio de mensagem (grupo ou contato)"
+    CONTACT_ID="Número do WhatsApp ou ID do grupo"
     ```
 
-4. Run the script:
+4. Execute o script:
 
     ```bash
     python xatu.py
     ```
 
-## Parameters
+## Parâmetros
 
-- **MODE**: Message sending mode, can be either "group" or "contact".
-- **CONTACT_ID**: WhatsApp contact number or group ID.
+- **MODE**: Modo de envio de mensagem, pode ser "grupo" ou "contato".
+- **CONTACT_ID**: Número do WhatsApp ou ID do grupo.
 
-## Usage
+## Uso
 
-- The script will automatically calculate the next Friday's date for the football match.
-- Customizable message includes details such as location, date, time, advance payment amount, PIX key, and responsible PIX owner.
-- Supports sending messages to individual contacts or group chats based on the specified mode.
+- O script calculará automaticamente a data da próxima sexta-feira para a partida de futebol.
+- A mensagem personalizável inclui detalhes como localização, data, horário, valor do pagamento antecipado, chave PIX e responsável pela chave PIX.
+- Suporta o envio de mensagens para contatos individuais ou grupos com base no modo especificado.
 
-## Acknowledgments
+## Agradecimentos
 
-- Inspired by the Pokémon "Xatu" for its timely predictions and automation.
+- Inspirado no Pokémon "Xatu" por suas previsões oportunas e automação.
 
-## License
+## Licença
 
-This project is licensed under the [MIT License](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
