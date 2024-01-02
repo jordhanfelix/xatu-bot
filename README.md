@@ -49,7 +49,7 @@ XATU é um script em Python projetado para automatizar o processo de envio de me
 
 ## Parâmetros
 
-- **MODE**: Modo de envio de mensagem, pode ser "grupo" ou "contato".
+- **MODE**: Modo de envio de mensagem, pode ser "group" ou "contact".
 - **CONTACT_ID**: Número do WhatsApp ou ID do grupo.
 
 ## Uso
